@@ -1,0 +1,42 @@
+masc_example;fem_ending;fem_example;pers_ending;pers_example;number_of_training_examples;number_of_validation_examples;number_of_test_examples
+pilot;tka;pilotka;cka;osoba pilocka;2;1;1
+pracz;czka;praczka;cka;osoba pracka;4;1;3
+komentator;orka;komentatorka;orska;osoba komentatorska;60;4;25
+nauczyciel;elka;nauczycielka;elska;osoba nauczycielska;5;1;4
+drwal;alka;drwalka;alska;osoba drwalska;1;1;1
+wodzirej;ejka;wodzirejka;ejska;osoba wodzirejska;1;1;1
+generał;ałka;generałka;alska;osoba generalska;2;1;2
+asystem;entka;asystentka;encka;osoba asystencka;40;3;20
+policjant;antka;policjantka;ancka;osoba policjancka;40;3;20
+biznesmen;enka;biznesmenka;ańska;osoba biznesmeńska;4;1;4
+barman;anka;barmanka;ańska;osoba barmańska;10;1;7
+szermierz;erka;szermierka;erska;osoba szermierska;55;3;25
+bibliotekarz;arka;bibliotekarka;arska;osoba bibliotekarska;60;4;25
+inżynier;erka;inżynierka;erska;osoba inżynierska;60;4;25
+śpiewak;czka;śpiewaczka;cza;osoba śpiewacza;4;1;2
+ogrodnik;niczka;ogroniczka;nicza;osoba ogrodnicza;60;4;25
+barista;istka;barista;istyczna;osoba baristyczna;8;1;5
+elektryk;yczka;elektryczka;ycka;osoba elektrycka;5;1;3
+artysta;ystka;artystka;ystyczna;osoba artystyczna;10;1;7
+szkoleniowiec;czyni;szkoleniowczyni;[osoba zajmująca się x];osoba zajmująca się wdrożeniami;10;1;7
+krawiec;owa;krawcowa;cka;osoba krawiecka;1;1;1
+kupiec;czyni;kupczyni;cka;osoba kupiecka;1;1;1
+szewc;czyni;szewczyni;ska;osoba szewska;1;1;1
+salowy;a;salowa;a;osoba salowa;15;1;7
+radiolog;ożka;radiolożka;ogiczna;osoba radiologiczna;15;1;7
+rozdzielca;czyni;rozdzielczyni;nicza;osoba rozdzielnicza;10;1;6
+geodeta;tka;geodetka;cka;osoba geodecka;4;1;4
+logopeda;dka;logopedka;dzka;osoba logopedzka;1;1;1
+psychiatra;rka;psychiatrka;[osoba zajmująca się x];osoba zajmująca się psychiatrią;3;1;2
+fotograf;fka;fotografka;[osoba zajmująca się x];osoba zajmująca się fotografią;2;1;2
+mistrz;rzyni;mistrzyni;rzowska;osoba mistrzowska;2;1;2
+astronom;nomka;astronmka;nomska;osoba astronomska;2;1;2
+sędzia;ni;sędzini;owska;osoba sędziowska;1;1;1
+detektyw;ywka;detektywka;ywistyczna;osoba deketywistyczna;1;1;1
+opiekun;unka;opiekunka;[rozbudowany imiesłów];osoba opiekująca się [kimś];0;0;0
+listonosz;noszka;listonoszka;[rozbudowany imiesłów];osoba dostarczająca listy;0;0;0
+przedszkolanek;anka;przedszkolanka;[rozbudowany imiesłów];osoba opiekująca się dziećmi w przedszkolu;0;0;0
+stażysta;ystka;stażystka;[rozbudowany imiesłów];osoba odbywająca staż;0;0;0
+tarocista;istka;tarocistka;[rozbudowany imiesłów];osoba stawiająca tarota;0;0;0
+klaun;nka;kalunka;niarska;osoba klauniarska;0;0;0
+SUM;SUM;SUM;SUM;SUM;500;52;250
