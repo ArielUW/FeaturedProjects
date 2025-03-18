@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link rel="stylesheet" href="CSS/style.css" type="text/css" />
+    <script src="JS/slideshow.js"></script>
+    <title>Licence Sciences du Langage – Sorbonne Université</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <!-- menu -->
+    <nav>
+      <a href="https://lettres.sorbonne-universite.fr/" target="_blank"><img src="images/logo-SU.png" id="logo-SU" alt="logo Sorbonne Université"></a>
+      <a href="index.html"><img src="images/logo-SDL.png" id="logo-SDL" alt="logo licence Sciences du Langage"></a>
+      <a href="index.html"><img src="images/logo-SDL-petit.png" id="logo-SDL-petit" alt="logo licence Sciences du Langage"></a>
+      <div class="dropdown">
+        <a class="nav" href="index.html">Accueil</a>
+        <span class="icon">🏠</span>
+      </div>
+      <div class="dropdown">
+        <div class="nav sup">Présentation</div>
+        <span class="icon">ℹ️</span>
+          <div class="drop-content">
+            <div class="sub"><a class="nav" href="pages/presentation/etudes.html">Études</a></div>
+            <div class="sub"><a class="nav" href="pages/presentation/ufrs.html">UFRs</a></div>
+            <div class="sub"><a class="nav" href="pages/presentation/profs.html">Enseignent(e)s</a></div>
+            <div class="sub"><a class="nav" href="pages/presentation/avis.html">Avis étudiants</a></div>
+          </div>
+      </div>
+      <div class="dropdown">
+        <div class="nav sup">Espace étudiante</div>
+        <span class="icon">🧑‍🎓‍</span>
+        <div class="drop-content">
+          <div class="sub"><a class="nav" href="pages/etudiant/actualites.html">Actualités</a></div>
+          <div class="sub"><a class="nav" href="pages/etudiant/emplois.html">Emplois du temps</a></div>
+          <div class="sub"><a class="nav" href="pages/etudiant/tutorat.html">Tutorats</a></div>
+          <div class="sub"><a class="nav" href="pages/etudiant/stages.html">Stages</a></div>
+          <div class="sub"><a class="nav" href="pages/etudiant/examens.html">Examens</a></div>
+        </div>
+      </div>
+      <div class="dropdown">
+        <div class="nav sup">Erasmus</div>
+        <span class="icon">‍🌍</span>
+        <div class="drop-content">
+          <div class="sub"><a class="nav" href="pages/erasmus/sortant.html">Sortant</a></div>
+          <div class="sub"><a class="nav" href="pages/erasmus/entrant.html">Entrant</a></div>
+        </div>
+      </div>
+      <div class="dropdown">
+        <div class="nav sup">Campus</div>
+        <span class="icon">‍🏫</span>
+        <div class="drop-content">
+          <div class="sub"><a class="nav" href="pages/campus/loca.html">Localisation</a></div>
+          <div class="sub"><a class="nav" href="pages/campus/biblio.html">Bibliothèques</a></div>
+          <div class="sub"><a class="nav" href="pages/campus/gastro.html">Gastronomie</a></div>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a class="nav" href="pages/contact.html">Contact</a>
+        <span class="icon">‍✉️</span>
+      </div>
+      <div class="dropdown">
+        <a class="nav" id="appliquer" href="pages/application.html">Appliquer</a>
+        <span class="icon">‍📥</span>
+      </div>
+    </nav>
+    <!-- contenu de la page -->
+    <main class=flex>
+      <!-- actualites -->
+      <section>
+        <h1>Bienvenue à la page de la <strong>Licence Sciences du Langage</strong> de la Sorbonne Université !</h1>
+        <h5>Important : Actualisation des directives COVID-19</h5>
+        <p>Nous diminuons de 50% le nombre des personnes présentes au campus. <a href="" class="arrow">En savoir plus&nbsp;&#10140;</a></p> <!--à completer-->
+        <a href=""><div class="button">Plus d'actualités</div></a><!--à completer--><br><br>
+      </section>
+      <section>
+        <div class="slideshow">
+          <a href="pages/presentation/avis.html#philippe">
+            <div class="slide">
+              <img src="images/philippe.png" alt="Jeune homme assis à une café moderne, utilisant un smartphone, habillé quotidiennement, avec une masque anti-virus.">
+              <div class="avis">
+                <p>Ayant choisi la licence Sciences du langage, je peux m’adapter à la nouvelle réalité.</p>
+                <p>– Philippe, diplômé en 2020</p>
+              </div>
+            </div>
+          </a>
+          <a href="pages/presentation/avis.html#alice">
+            <div class="slide hidden">
+              <img src="images/alice.png" alt="Jeune femme assise à une terrasse, avec un ordinateur portable et un café à emporter, habillé de style business casual.">
+              <div class="avis">
+                <p>J’ai commencé premier stage lors de ma deuxième année. Aujourd'hui je travaille chez Google !</p>
+                <p>– Alice, diplômé en 2019</p>
+              </div>
+            </div>
+          </a>
+          <a href="pages/presentation/avis.html#marc">
+            <div class="slide hidden">
+              <img src="images/marc.png" alt="Jeune homme assis à un jardin, avec un ordinateur portable et un café à emporter, habillé élégament.">
+                <div class="avis">
+                  <p>À la fois je suis un expert de la culture grecque et je connais les langages de Front-end.</p>
+                  <p>– Marc, diplômé en 2018</p>
+                </div>
+            </div>
+          </a>
+          <a class="prev" onclick="changerSlide(-1)">&#10094;</a>
+          <a class="next" onclick="changerSlide(1)">&#10095;</a>
+          <div class="dots">
+            <span class="dot actif" onclick="leSlide(1)"></span>
+            <span class="dot" onclick="leSlide(2)"></span>
+            <span class="dot" onclick="leSlide(3)"></span>
+          </div>
+        </div>
+        <div class="box"></div>
+      </section>
+    </main>
+    <footer>
+      <div id="copyright">
+        <p>© 2020 Sorbonne Université</p>
+        <p><a href="pages/legal.html">Mentions legales</a></p>
+      </div>
+      <div id="mail">
+        <p><a href="pages/plan.html">Plan du site</a></p>
+        <p><a href="mailto:licence-sciences-du-langage@sorbonne-universite.fr">licence-sciences-du-langage@sorbonne-universite.fr</a></p>
+      </div>
+    </footer>
+  </body>
